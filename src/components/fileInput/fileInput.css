@@ -1,0 +1,24 @@
+.attachContainer {
+    margin: 10px
+  }
+  
+.attachChange {
+    display: flex;
+    cursor: pointer;
+    height: fit-content;
+    transition: all 0.3s;
+    background-color: #efefefb8;
+    border: 2px solid #d9d9d9b8;
+    padding: 5px 40px;
+    border-radius: 20px;
+    &:hover {
+      color: green;
+      transform: scale(1.01);
+      background-color: #46c946c2;
+      border-color: #59b952b8;
+      color: white;
+    }
+    &:active {
+      transform: scale(0.91);
+    }
+}
